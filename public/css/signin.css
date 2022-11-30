@@ -1,3 +1,79 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #006494, #F5F5F5);
+    display: flex;
+    
+    padding: 0;
+    flex-direction: column;
+    
+}
+.signin-wrapper {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    margin-bottom: 3em;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/* HEADER */
+
+nav{
+    background-color: #E8F1F2;
+}
+.navbar{
+    padding: 0;
+}
+.nav_link{
+    padding: 0 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 70%);
+    text-decoration: none;
+    letter-spacing: .7px;
+}
+.nav_link:hover{
+    color: white;
+}
+.ul_login{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 1.3rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ul_login div{
+    display:flex;
+    margin-top: 5px;
+}
+.login_span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn_login{
+    background: #18A0FB;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: hsl(0, 0%, 85%);
+    text-decoration: none;
+    margin: 2px 7px;
+    letter-spacing: 1px;
+}
+
 /* Login Card */
 .login-card {
     width: 450px;
